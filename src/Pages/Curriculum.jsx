@@ -1,7 +1,7 @@
 import Caption from "../components/atoms/Caption"
 import Caption2 from "../components/atoms/Caption2"
 import Datos from "../../datos.json"
-import Image from "../Imagenes/Jonathan.jpg"
+import Image2 from "../Imagenes/Imagen.jfif"
 import Text from "../components/atoms/Text";
 
 function Curriculum() {
@@ -10,7 +10,7 @@ function Curriculum() {
         <div className="container">
             <div className="datosPersonales">
 
-                <img className="imagen" src={Image} alt="Foto de Jonathan Jair Perez Mejia" /><br />
+                <img className="imagen" src={Image2} alt="Foto de Jonathan Jair Perez Mejia" /><br />
                 <div  className="cuadro">
                     <Caption msn="Contacto"></Caption>
                     <div className="contacto">
