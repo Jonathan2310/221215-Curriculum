@@ -13,9 +13,16 @@ function Curriculum() {
                 <img className="imagen" src={Image} alt="Foto de Jonathan Jair Perez Mejia" /><br />
                 <div  className="cuadro">
                     <Caption msn="Contacto"></Caption>
-                    <Text dt={Datos.Ubicacion}></Text>
-                    <Text dt={Datos.cel}></Text>
-                    <Text dt={Datos.correo}></Text>
+                    <div className="contacto">
+                        <i class="fi fi-br-marker"></i> {Datos.Ubicacion}
+                    </div>
+                    <div className="contacto">
+                        <i class="fi fi-rr-phone-call"></i> {Datos.cel}
+                    </div>
+                    <div className="contacto">
+                        <i class="fi fi-br-envelope"></i> {Datos.correo}
+                    </div>
+                    
                 </div>
                 <div className="cuadro">
                     <Caption msn="Habilidades"></Caption>

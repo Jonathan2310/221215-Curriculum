@@ -22,6 +22,20 @@
     padding-bottom: 10%;
 }
 
+.contacto{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align: start;
+    padding-right: 10%;
+    font-size: 70%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.contacto i{
+    padding-left: 15%;
+}
+
 .social-container a {
     display: inline-block;
     text-decoration: none;
