@@ -5,7 +5,7 @@ function Caption({msn}) {
     return (
         <>
             <hr />
-            <h1>{msn}</h1>
+            <h1 id="titulo">{msn}</h1>
         </>
     )
 }

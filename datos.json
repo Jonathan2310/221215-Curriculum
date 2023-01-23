@@ -1,16 +1,26 @@
 {
-    "nombre": "Jonathan Jair Perez Mejia",
+    "firtsName": "Jonathan",
+    "name": "Jair Perez Mejia",
 
     "Ubicacion": "Tuxtla Gutierrez, Chiapas.",
     "cel": "9611194708", 
     "correo": "221215@ids.upchiapas.edu.mx",
 
-    "habilidad01": "Conocimiento en c++",
-    "habilidad02": "Conocimiento en Java y JavaScript",
+    "habilidad01": "Rapido para entemder algo",
+    "habilidad02": "Creativo",
     "habilidad03": "Buscar una solucion para un problema",
     "habilidad04": "Respetuoso y amable",
-    "habilidad05": "Trabajar en equipo",
+    "habilidad05": "Capacidad para trabajar en equipo",
     
-    "informacionAdicional": "",
-    "resumenProfesional": "Estudie en la UPChiapas"
+    "informacionAdicional": "Soy alguien que si no sabe algo lo investiga, ademas de buscar ideas nuevas y originarias.",
+    
+    "resumenProfesional": "Soy de la Universidad Politecnica de Chiapas, tengo 19 años, no tengo mucho experiencia laboral, solo experiencia basica pero me gusta programar, ya que me gusta esa idea de como se puede hacer un codigo y buscar la solucion a problemas, ademas de que me gusta hacer cosas distintas a la mayoria.",
+
+    "formacion": "Estudie en la primaria Justo Cierra donde desarrolle un gusto por las matematicas, y participando en un examen de parte de la escuela para representarlos. Despues en la secundaria Tectica N.79, donde seguí desarrollando mis habilidades. Despues estudie en el Cobach 145 donde desarrolle un gusto por la programación y aprendi algunas cosas para despues decidirme por estudiar Desarrolo de software (IDS) en la universidad Politecnica de Chiapas, que se encuentra en Suchiapa. Donde he aprendido muchas cosas, como tener mas logica, mas experiencia, diferentes lenguajes de programacion, etc.",
+    
+    "lenguaje1": "C++",
+    "lenguaje2": "Java",
+    "lenguaje3": "JavaScript",
+    "lenguaje4": "HTML",
+    "lenguaje5": "C"
   }

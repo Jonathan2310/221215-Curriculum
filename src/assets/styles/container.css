@@ -7,14 +7,7 @@
 
 .datosPersonales{
     width: 20%;
-    background-color: rgba(42, 42, 80, 0.814);
-    text-align: center;
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.informacion{
-    width: 35%;
-    background-color: rgb(251, 251, 251);
+    background-color: rgba(28, 28, 70, 0.9);
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -23,4 +16,41 @@
     width: 200px;
     height: 250px;
     padding: 10px 0 10px 0;
+}
+
+.cuadro{
+    padding-bottom: 10%;
+}
+
+.informacion{
+    width: 35%;
+    background-color: rgba(89, 112, 145, 0.634);
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.nombre{
+    color: rgba(20, 74, 175, 0.707);
+    font-size: 150%;
+    text-align: start;
+    padding-left: 15%;
+}
+
+.color{
+    color: rgba(4, 4, 4, 0.785);
+}
+
+#linea{
+    height: 5px;
+    width: 80%;
+    background-color: rgba(28, 28, 70, 0.9);
+}
+
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align: start;
+    padding-left: 15%;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
 }
