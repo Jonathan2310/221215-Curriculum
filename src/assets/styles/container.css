@@ -22,6 +22,20 @@
     padding-bottom: 10%;
 }
 
+.social-container a {
+    display: inline-block;
+    text-decoration: none;
+    width: 15%;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: #0d2033;
+}
+
+.social-container a:hover {
+    color: rgb(0, 0, 0);
+}
+
 .informacion{
     width: 35%;
     background-color: rgba(89, 112, 145, 0.634);

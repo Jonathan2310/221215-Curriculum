@@ -29,13 +29,24 @@ function Curriculum() {
                     <Caption msn="Informacion adiccional"></Caption>
                     <Text dt={Datos.informacionAdicional}></Text>
                 </div>
+                <div className="cuadro">
+                    <Caption msn="Redes Sociales"></Caption>
+                    <br />
+                    <div class="social-container">
+                        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                        <a href="https://mx.linkedin.com/" class="fa fa-linkedin"></a>
+                </div>
+                </div>
                 
             </div>
             <div className="informacion">
+                <br />
                 <h1 className="nombre"><span className="color">Proximamente Ing.<br /> {Datos.firtsName}</span> {Datos.name}</h1>
                 <hr id="linea"/>
 
                 <div className="cuadro">
+                    <br />
                     <h2 className="subtitulo">Resumen Profesional</h2>
                     <Text dt={Datos.resumenProfesional}></Text>
                 </div>
@@ -46,6 +57,12 @@ function Curriculum() {
                 </div>
 
                 <div className="cuadro">
+                    <Caption2 msn="Participacion en proyectos"></Caption2>
+                    <Text dt={Datos.proyecto1}></Text>
+                    <Text dt={Datos.proyecto2}></Text>
+                </div>
+
+                <div className="cuadro">
                     <Caption2 msn="Lenguajes Utilizados"></Caption2>
                     <Text dt={Datos.lenguaje1}></Text>
                     <Text dt={Datos.lenguaje2}></Text>
@@ -53,6 +70,7 @@ function Curriculum() {
                     <Text dt={Datos.lenguaje4}></Text>
                     <Text dt={Datos.lenguaje5}></Text>
                 </div>
+
             </div>
         </div>
         </>
